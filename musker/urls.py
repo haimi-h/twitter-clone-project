@@ -10,6 +10,6 @@ urlpatterns = [
     path('logout', views.logout_user, name='logout'),
     path('register/', views.register_user, name='register'),
     path('update_user/', views.update_user, name='update_user'),
-    path('meep_like/<int:pk>', views.meep_like, name="meep_like"),
-    path('meep_show/<int:pk>', views.meep_show, name="meep_show"),
+    path('tweet_like/<int:pk>', views.tweet_like, name="tweet_like"),
+    path('tweet_show/<int:pk>', views.tweet_show, name="tweet_show"),
 ]
