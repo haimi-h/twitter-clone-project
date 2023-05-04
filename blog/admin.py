@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.contrib.auth.models import Group, User
 from .models import Profile, Tweet
 
-# Unregister Groups
+# Unregister Group
 admin.site.unregister(Group)
 
 # Mix Profile info into User info
